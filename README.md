@@ -34,14 +34,10 @@ A static frontend clone (UI) that focuses on:
 
 ## Project Structure
 Netflix-Clone/
-
 ├─ index.html
-
 ├─ style.css
-
 ├─ script.js
-
-└─ images
+└─ images/
 
 ## How to Run Locally
 ### Option 1: Open directly

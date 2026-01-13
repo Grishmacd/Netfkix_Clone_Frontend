@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+.heading{
+  width: 1600px;
+  height: 800px;
+  background-position: center;
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/start_wide_image.png);
+  padding-right: 80px ;
+  padding-left: 80px ;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-size: cover;
+}
+nav{
+  display: flex;
+  justify-content: space-between; /* space-between because logo in the left and buttons right*/
+  align-items: center;
+  padding-bottom: 10px;
+
+}
+.logo{
+  width: 150px;
+  cursor: pointer;/* to change cursor to pointer when i move on logo */
+  margin-left: 20px;
+  
+}
+
+nav div button{
+  background-color:red;
+  color: white;
+  padding: 10px 25px;
+  margin-left: 1px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right:150px;
+
+}
+.lang-button{
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: white 1px solid;
+  padding: 10px 15px;
+  margin-right:25px; 
+}
+.lang-button img{
+  width: 10px;
+  margin-left: 10px;
+}
+.head-content{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%,-50%);/* to center the content  exactly*/
+  text-align: center;
+  margin-top: 100px;
+}
+.head-content h1{
+  font-size: 60px;
+
+}
+.head-content h3{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.email-form{
+  display:flex;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 4px ;
+  margin-top: 30px;
+  gap: 15px;
+  color: white;
+}
+.email-form input{
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 400px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.email-form button{
+  background-color: red;
+  color: white;
+  border: 0%;
+  padding: 18px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+
+}
+.trending-sec{
+  padding-left: 60px ;
+}
+.trending-sec h2{
+  padding-left: 20px;
+  }
+
+
+.i1{
+  width: 250px;
+  height: 290px;
+  padding: 5px;
+  display: inline-block;
+   position: relative;
+ 
+}
+.i2{
+  width: 250px;
+  height: 300px;
+  padding: 5px;
+  display: inline-block;
+  position: absolute;
+ top: 865px;
+}
+.i3{
+  width: 250px;
+  height: 280px;
+  padding: 5px;
+  display: inline-block;
+  left: 550px;
+   top: 870px;
+   position: absolute;
+}
+.i4{
+  width: 250px;
+  height: 300px;
+  padding: 5px;
+  display: inline-block;
+   top: 865px;
+   position: absolute;
+   left: 780px;
+}
+.i5{
+  width: 250px;
+  height: 300px;
+  padding: 5px;
+  display: inline-block;
+  top: 865px;
+  position: absolute;
+  right:230px; ;
+}
+.i6{
+  width: 150px;
+  height: 300px;
+  padding: 5px;
+  display: inline-block;
+ top: 865px;
+ position: absolute;
+ right: 100px;
+}
+
+
+.more-option{
+  padding-left: 90px ;
+  padding-right: 60px;
+
+}
+
+.option1{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(135deg,#1f2a5a,#3a1c4b);
+  border-radius: 13px;
+  position: relative;
+  padding: 20px;
+  vertical-align: top;/*inline block elements alignment  are based on content so this fix it from top*/
+
+}
+.op1{
+  height: 90px ;
+  width: 90px;
+  top: 155px;
+  border-radius: 12%;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.option1 h2{
+  font-size: 20x;
+  margin-top: 20px;
+
+}
+.option1 p{
+  font-size: 16px;
+  margin-top: 20px;
+  
+}
+.option2{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(135deg,#1f2a5a,#3a1c4b);
+  border-radius: 13px;
+  position: relative;
+  padding: 20px;
+  vertical-align: top;
+
+}
+.op2{
+  height: 90px ;
+  width: 90px;
+  top: 155px;
+  border-radius: 12%;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.option2 h2{
+  font-size: 20x;
+  margin-top: 20px;
+
+}
+.option2 p{
+  font-size: 16px;
+  margin-top: 20px;
+  
+}
+.option3{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(135deg,#1f2a5a,#3a1c4b);
+  border-radius: 13px;
+  position: relative;
+  padding: 20px;
+  vertical-align: top;
+
+}
+.op3{
+  height: 90px ;
+  width: 90px;
+  top: 155px;
+  border-radius: 12%;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.option3 h2{
+  font-size: 20x;
+  margin-top: 20px;
+
+}
+.option3 p{
+  font-size: 16px;
+  margin-top: 20px;
+  
+}
+.option3{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(135deg,#1f2a5a,#3a1c4b);
+  border-radius: 13px;
+  position: relative;
+  padding: 20px;
+
+}
+.op3{
+  height: 90px ;
+  width: 90px;
+  top: 155px;
+  border-radius: 12%;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.option3 h2{
+  font-size: 20x;
+  margin-top: 20px;
+
+}
+.option3 p{
+  font-size: 16px;
+  margin-top: 20px;
+  
+}
+.option4{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(135deg,#1f2a5a,#3a1c4b);
+  border-radius: 13px;
+  position: relative;
+  padding: 20px;
+  vertical-align: top;
+
+}
+.op4{
+  height: 90px ;
+  width: 90px;
+  top: 155px;
+  border-radius: 12%;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.option4 h2{
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.option4 p{
+  font-size: 16px;
+  margin-top: 20px;
+  
+}
+.faq{
+  padding-left: 90px ;
+  padding-right:130px;
+}
+.faq-item {
+  margin-bottom: 16px;
+  position: relative;
+
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  background: #333;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  
+}
+
+.faq-answer {
+  display: none;
+  background: #222;
+  padding: 15px;
+  color: white;
+  
+}
+
+.plus1{
+  width: 40px;
+  margin-right: 10px;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+.e2{
+   padding-left: 480px ;
+
+}
+.netflix-footer{
+  background: #000;
+  color: #aaa;
+  padding: 100px;
+  font-size: 14px;
+}
+
+.footer-call{
+  margin-bottom: 30px;
+}
+
+.footer-call a{
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.footer-links{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-links ul{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li{
+  margin-bottom: 12px;
+}
+
+.footer-links a{
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.footer-links a:hover{
+  color: #fff;
+}
+
+.footer-language select{
+  background: #000;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+}
+
+.footer-country{
+  margin-top: 10px;
+}

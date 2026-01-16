@@ -38,16 +38,6 @@ Netflix-Clone/
 3. script.js
 4. images/
 
-## How to Run Locally
-### Option 1: Open directly
-1. Download or clone this repository
-2. Open `index.html` in your browser
-
-### Option 2: VS Code Live Server (recommended)
-1. Open the folder in VS Code
-2. Install the "Live Server" extension
-3. Right click on `index.html` → "Open with Live Server"
-
 
 ## How the FAQ Accordion Works
 The FAQ section uses JavaScript to toggle answers:

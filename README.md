@@ -3,7 +3,6 @@
 This project is a Netflix-style landing page UI clone made using HTML, CSS, and Vanilla JavaScript. It recreates the look and layout of the Netflix India homepage with a hero banner, trending section, feature highlights, FAQ accordion, and a footer.  
 It is built only for learning, practice, and portfolio use.
 
-Disclaimer: This is not the official Netflix website and does not provide streaming. Netflix is a trademark of Netflix, Inc.
 
 ## What this project is
 A static frontend clone (UI) that focuses on:
@@ -34,10 +33,10 @@ A static frontend clone (UI) that focuses on:
 
 ## Project Structure
 Netflix-Clone/
-├─ index.html
-├─ style.css
-├─ script.js
-└─ images/
+1. index.html
+2. style.css
+3. script.js
+4. images/
 
 ## How to Run Locally
 ### Option 1: Open directly
@@ -61,5 +60,5 @@ This logic is written in `script.js`.
 This project is open for learning and portfolio use.
 
 
-## Author
+## Developer
 Grishma CD
